@@ -13,7 +13,7 @@ services:
     environment:
       # See the .env.example file in the GitHub repo for all available options while we work on the docs.
       # https://github.com/kin-labs/kinetic/blob/dev/.env.example
-      API_URL: "http://localhost:3000/api"
+      API_URL: "http://kindlingburn.com:3000/api"
       AUTH_PASSWORD_ENABLED: true
       # Provision users with a coma-separated list.
       # Each item has the form: <username>|<password?>|<role?>:<email?>:<avatarUrl?>
@@ -28,12 +28,12 @@ services:
       COOKIE_DOMAINS: "localhost"
       CORS_BYPASS: true
       DATABASE_URL: "postgresql://prisma:prisma@postgres:5432/prisma?schema:kinetic"
-      JWT_SECRET: "ENTER_YOUR_SECRET"
+      JWT_SECRET: "4H6(u&KPK6FV!vEa"
       LOG_LEVEL: ALL
       # Devnet is enabled by default, you need to explicitly enable mainnet.
       SOLANA_DEVNET_ENABLED: true
       SOLANA_MAINNET_ENABLED: false
-      WEB_URL: "http://localhost:3000"
+      WEB_URL: "http://kindlingburn.com:3000"
     logging:
       options:
         max-size: 100m
